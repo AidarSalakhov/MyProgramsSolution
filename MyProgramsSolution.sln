@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DZ4 Razbor", "DZ4 Razbor\DZ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U18-21 FOR, BREAK, CONTINUE", "U18 FOR\U18-21 FOR, BREAK, CONTINUE.csproj", "{9D51D41D-484A-4E6D-A895-AE8D9DF017E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U22 Vlozhennie cikli", "U22 Vlozhennie cikli\U22 Vlozhennie cikli.csproj", "{3A43A607-1B49-42FB-A278-36D14FA5B9CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{9D51D41D-484A-4E6D-A895-AE8D9DF017E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D51D41D-484A-4E6D-A895-AE8D9DF017E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D51D41D-484A-4E6D-A895-AE8D9DF017E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A43A607-1B49-42FB-A278-36D14FA5B9CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A43A607-1B49-42FB-A278-36D14FA5B9CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A43A607-1B49-42FB-A278-36D14FA5B9CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A43A607-1B49-42FB-A278-36D14FA5B9CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
