@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U18-21 FOR, BREAK, CONTINUE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U22 Vlozhennie cikli", "U22 Vlozhennie cikli\U22 Vlozhennie cikli.csproj", "{3A43A607-1B49-42FB-A278-36D14FA5B9CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DZ5 Treugolniki", "DZ5 Treugolniki\DZ5 Treugolniki.csproj", "{F68B65DC-515C-424D-8014-0B35FA7FD289}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{3A43A607-1B49-42FB-A278-36D14FA5B9CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A43A607-1B49-42FB-A278-36D14FA5B9CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A43A607-1B49-42FB-A278-36D14FA5B9CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F68B65DC-515C-424D-8014-0B35FA7FD289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F68B65DC-515C-424D-8014-0B35FA7FD289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F68B65DC-515C-424D-8014-0B35FA7FD289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F68B65DC-515C-424D-8014-0B35FA7FD289}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
