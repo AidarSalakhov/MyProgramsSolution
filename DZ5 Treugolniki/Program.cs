@@ -12,13 +12,13 @@ namespace DZ5_Treugolniki
         {
             //Нарисовать треугольники (стороны 10х10, диагональ корень 200) , только с помощью вложенных циклов (без IF ELSE)
 
-            int linelength = 1;
-            int linelength2 = 1;
+            int linelength = 0;
+            int linelength2 = 10;
 
             Console.WriteLine();
-            for (int i = 0; i <= 9; i++)
+            for (int i = 1; i <= 10; i++)
             {
-                for (int j = 0; j < linelength; j++)
+                for (int j = 0; j <= linelength; j++)
                 {
                     Console.Write("#");
                 }
@@ -28,37 +28,29 @@ namespace DZ5_Treugolniki
             Console.WriteLine();
 
 
-
             Console.WriteLine();
-            for (int k = 0; k <= 9; k++)
+            for (int k = 1; k <= 10; k++)
             {
-                
-                for (int l = 1; l < linelength; l++)
+                for (int l = 0; l < linelength2; l++)
                 {
                     Console.Write("#");
                 }
                 Console.WriteLine();
-                linelength--;
+                linelength2--;
             }
             Console.WriteLine();
 
 
-
-            linelength = 10;
-
-
-
             Console.WriteLine();
-            for (int h = 0; h <= 9; h++)
+            for (int h = 1; h <= 10; h++)
             {
-
-                for (int g = 1; g < linelength; g++)
+                for (int g = 2; g <= linelength; g++)
                 {
                     Console.Write(" ");
                 }
                 linelength--;
 
-                for (int f = 0; f < linelength2; f++)
+                for (int f = 0; f <= linelength2; f++)
                 {
                     Console.Write("#");
                 }
@@ -68,28 +60,24 @@ namespace DZ5_Treugolniki
             Console.WriteLine();
 
 
-
-
             Console.WriteLine();
-            for (int h = 0; h <= 9; h++)
+            for (int d = 1; d <= 10; d++)
             {
-
-                for (int g = 1; g < linelength; g++)
+                for (int s = 2; s <= linelength; s++)
                 {
                     Console.Write(" ");
                 }
-                linelength--;
+                linelength++;
 
-                for (int f = 0; f < linelength2; f++)
+                for (int a = 0; a <= linelength2; a++)
                 {
                     Console.Write("#");
                 }
                 Console.WriteLine();
-                linelength2++;
+                linelength2--;
             }
             Console.WriteLine();
-
-
+             
 
 
             Console.ReadLine();
