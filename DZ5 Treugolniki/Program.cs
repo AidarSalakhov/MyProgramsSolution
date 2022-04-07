@@ -70,13 +70,11 @@ namespace DZ5_Treugolniki
                 Console.WriteLine();
                 linelength2--;
 
-
                 for (int s = 0; s <= linelength; s++)
                 {
                     Console.Write(" ");
                 }
                 linelength++;
-
             }
             Console.ReadLine();
 
