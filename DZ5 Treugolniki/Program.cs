@@ -63,25 +63,22 @@ namespace DZ5_Treugolniki
             Console.WriteLine();
             for (int d = 1; d <= 10; d++)
             {
-                for (int s = 2; s <= linelength; s++)
-                {
-                    Console.Write(" ");
-                }
-                linelength++;
-
-                for (int a = 0; a <= linelength2; a++)
+                for (int a = 0; a < linelength2; a++)
                 {
                     Console.Write("#");
                 }
                 Console.WriteLine();
                 linelength2--;
+
+
+                for (int s = 0; s <= linelength; s++)
+                {
+                    Console.Write(" ");
+                }
+                linelength++;
+
             }
-            Console.WriteLine();
-             
-
-
             Console.ReadLine();
-
 
         }
     }
