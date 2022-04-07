@@ -12,9 +12,14 @@ namespace DZ5_Treugolniki
         {
             //Нарисовать треугольники (стороны 10х10, диагональ корень 200) , только с помощью вложенных циклов (без IF ELSE)
 
-            int linelength = 0;
-            int linelength2 = 30;
-            int linewidth = 30;
+            int linelength = 0, linelength2, linewidth;
+
+            Console.WriteLine("Введите высоту треугольника");
+            linelength2 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Введите ширину треугольника");
+            linewidth = int.Parse(Console.ReadLine());
+
 
             Console.WriteLine();
             for (int i = 1; i <= linewidth; i++)
