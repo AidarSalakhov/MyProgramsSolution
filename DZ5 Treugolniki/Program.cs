@@ -13,10 +13,11 @@ namespace DZ5_Treugolniki
             //Нарисовать треугольники (стороны 10х10, диагональ корень 200) , только с помощью вложенных циклов (без IF ELSE)
 
             int linelength = 0;
-            int linelength2 = 10;
+            int linelength2 = 30;
+            int linewidth = 30;
 
             Console.WriteLine();
-            for (int i = 1; i <= 10; i++)
+            for (int i = 1; i <= linewidth; i++)
             {
                 for (int j = 0; j <= linelength; j++)
                 {
@@ -29,7 +30,7 @@ namespace DZ5_Treugolniki
 
 
             Console.WriteLine();
-            for (int k = 1; k <= 10; k++)
+            for (int k = 1; k <= linewidth; k++)
             {
                 for (int l = 0; l < linelength2; l++)
                 {
@@ -42,7 +43,7 @@ namespace DZ5_Treugolniki
 
 
             Console.WriteLine();
-            for (int h = 1; h <= 10; h++)
+            for (int h = 1; h <= linewidth; h++)
             {
                 for (int g = 2; g <= linelength; g++)
                 {
@@ -61,7 +62,7 @@ namespace DZ5_Treugolniki
 
 
             Console.WriteLine();
-            for (int d = 1; d <= 10; d++)
+            for (int d = 1; d <= linewidth; d++)
             {
                 for (int a = 0; a < linelength2; a++)
                 {
