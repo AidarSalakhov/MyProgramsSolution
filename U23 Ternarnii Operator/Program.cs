@@ -33,13 +33,23 @@ namespace U23_Ternarnii_Operator
             //Console.ReadLine();
 
 
-            int inputData = int.Parse(Console.ReadLine());
 
-            int outputData = (inputData < 0) ? 0 : inputData;
 
-            Console.WriteLine(outputData);
+            //int inputData = int.Parse(Console.ReadLine());
 
-            Console.ReadLine();
+            //int outputData = (inputData < 0) ? 0 : inputData;
+
+            //Console.WriteLine(outputData);
+
+            //Console.ReadLine();
+
+
+            int a = 5;
+            int b = 6;
+            int c;
+
+            c = a < b ? 999 : 555;
+            Console.WriteLine(c);
 
         }
     }
