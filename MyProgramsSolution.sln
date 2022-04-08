@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U22 Vlozhennie cikli", "U22
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DZ5 Treugolniki", "DZ5 Treugolniki\DZ5 Treugolniki.csproj", "{F68B65DC-515C-424D-8014-0B35FA7FD289}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DZ5 Razbor", "DZ5 Razbor\DZ5 Razbor.csproj", "{6D1E21AF-3C8F-4877-B61B-81C413287E47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{F68B65DC-515C-424D-8014-0B35FA7FD289}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F68B65DC-515C-424D-8014-0B35FA7FD289}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F68B65DC-515C-424D-8014-0B35FA7FD289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D1E21AF-3C8F-4877-B61B-81C413287E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D1E21AF-3C8F-4877-B61B-81C413287E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D1E21AF-3C8F-4877-B61B-81C413287E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D1E21AF-3C8F-4877-B61B-81C413287E47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
