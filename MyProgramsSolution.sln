@@ -45,6 +45,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DZ5 Razbor", "DZ5 Razbor\DZ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U23 Ternarnii Operator", "U23 Ternarnii Operator\U23 Ternarnii Operator.csproj", "{5532AB97-F0FC-454E-9AAD-9E940F57E07A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U24-26 Massivi", "U24 Massivi\U24-26 Massivi.csproj", "{73BF54EE-2AEE-4F7D-BE8B-53172BCA28D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DZ6 Massivi", "DZ6 Massivi\DZ6 Massivi.csproj", "{AA473259-705A-46A9-80CA-86AA504143E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +139,14 @@ Global
 		{5532AB97-F0FC-454E-9AAD-9E940F57E07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5532AB97-F0FC-454E-9AAD-9E940F57E07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5532AB97-F0FC-454E-9AAD-9E940F57E07A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73BF54EE-2AEE-4F7D-BE8B-53172BCA28D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73BF54EE-2AEE-4F7D-BE8B-53172BCA28D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73BF54EE-2AEE-4F7D-BE8B-53172BCA28D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73BF54EE-2AEE-4F7D-BE8B-53172BCA28D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA473259-705A-46A9-80CA-86AA504143E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA473259-705A-46A9-80CA-86AA504143E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA473259-705A-46A9-80CA-86AA504143E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA473259-705A-46A9-80CA-86AA504143E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
