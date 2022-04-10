@@ -10,15 +10,18 @@ namespace RazborDZ_1
     {
         static void Main(string[] args)
         {
-            double firstValue, secondValue, result;
-            Console.WriteLine("Введите первое число:");
-            firstValue = double.Parse(Console.ReadLine());
-            Console.WriteLine("Введите второе число:");
-            secondValue = double.Parse(Console.ReadLine());
-            result = (firstValue + secondValue) / 2;
-            Console.WriteLine("Среднее арифметическое = " + result);
-            Console.ReadLine();
+            //double firstValue, secondValue, result;
+            //Console.WriteLine("Введите первое число:");
+            //firstValue = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Введите второе число:");
+            //secondValue = double.Parse(Console.ReadLine());
+            //result = (firstValue + secondValue) / 2;
+            //Console.WriteLine("Среднее арифметическое = " + result);
+            //Console.ReadLine();
 
+            string txt = "Hello";
+            
+            Console.WriteLine(txt.ToUpper());
         }
     }
 }
