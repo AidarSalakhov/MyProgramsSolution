@@ -15,8 +15,59 @@ namespace DZ6_Massivi
             //3. Найти сумму чётных чисел в массиве
             //4. Найти наименьшее число в массиве
 
+            int arrayLenght;
+            int arrayEvenSumm = 0;
+                        
+            try
+            {
+                Console.WriteLine("Введите размерность массива: ");
+                arrayLenght = int.Parse(Console.ReadLine());
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Неверные данные. Введите целое число! ");
+                return;
+            }
 
+            int[] myArray = new int[arrayLenght];
 
+            for (int i = 0; i < arrayLenght; i++)
+            {
+                try
+                {
+                    Console.WriteLine("Число массива " + (i + 1) + ":");
+                    myArray[i] = int.Parse(Console.ReadLine());
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("Неверные данные. Введите целое число! ");
+                    return;
+                }
+            }
+
+            Console.WriteLine("\nМассив в порядке заполнения: ");
+            for (int j = 0; j < arrayLenght; j++)
+            {
+                Console.Write( "[" + myArray[j] + "]"); 
+            }
+
+            Console.WriteLine("\nМассив в обратном порядке: ");
+            for (int k = (arrayLenght-1); k >= 0; k--)
+            {
+                Console.Write("[" + myArray[k] + "]");
+            }
+
+            
+            for (int l = 0; l < arrayLenght; l++)
+            {
+                if (myArray[l] % 2 == 0)
+                {
+                    arrayEvenSumm = arrayEvenSumm + myArray[l];
+                }
+            }
+            Console.WriteLine("\nСумма чётных чисел в массиве: \n" + arrayEvenSumm);
+
+            Console.WriteLine("Минимальное число в массиве: \n" + myArray.Min());
         }
     }
 }
