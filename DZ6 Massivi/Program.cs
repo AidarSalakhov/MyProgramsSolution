@@ -17,6 +17,7 @@ namespace DZ6_Massivi
 
             int arrayLenght;
             int arrayEvenSumm = 0;
+            int arrayMin;
                         
             try
             {
@@ -67,7 +68,18 @@ namespace DZ6_Massivi
             }
             Console.WriteLine("\nСумма чётных чисел в массиве: \n" + arrayEvenSumm);
 
-            Console.WriteLine("Минимальное число в массиве: \n" + myArray.Min());
+            //Console.WriteLine("Минимальное число в массиве: \n" + myArray.Min());
+
+
+            arrayMin = myArray[0];
+            for (int i = 1; i < myArray.Length; i++)
+            {
+                if (myArray[0] > myArray[i])
+                {
+                    arrayMin = myArray[i];
+                }
+            }
+            Console.WriteLine("Минимальное число в массиве: \n" + arrayMin);
         }
     }
 }
