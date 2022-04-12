@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DZ6 Massivi", "DZ6 Massivi\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U27 Massivi na samom dele", "U27 Massivi na samom dele\U27 Massivi na samom dele.csproj", "{0470C357-3797-4C0F-92B6-0E176D43559F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U28 Index i Diapozon", "U28 Index i Diapozon\U28 Index i Diapozon.csproj", "{E9631C1D-7BA7-4491-89F2-05F1978AACC6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{0470C357-3797-4C0F-92B6-0E176D43559F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0470C357-3797-4C0F-92B6-0E176D43559F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0470C357-3797-4C0F-92B6-0E176D43559F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9631C1D-7BA7-4491-89F2-05F1978AACC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9631C1D-7BA7-4491-89F2-05F1978AACC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9631C1D-7BA7-4491-89F2-05F1978AACC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9631C1D-7BA7-4491-89F2-05F1978AACC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
