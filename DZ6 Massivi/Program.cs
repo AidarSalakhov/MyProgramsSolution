@@ -74,7 +74,7 @@ namespace DZ6_Massivi
             arrayMin = myArray[0];
             for (int i = 1; i < myArray.Length; i++)
             {
-                if (myArray[0] > myArray[i])
+                if (arrayMin > myArray[i])
                 {
                     arrayMin = myArray[i];
                 }
