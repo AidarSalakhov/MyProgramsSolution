@@ -49,18 +49,18 @@ namespace U24_Massivi
             //Console.WriteLine(myArray[2] + myArray[0]);
 
 
-            //int[] myArray = Enumerable.Range(410, 10).ToArray();
-            //Console.WriteLine();
+            int[] myArray = Enumerable.Range(410, 10).ToArray();
+            Console.WriteLine();
 
 
 
 
-            int[] myArray = { 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18};
+            //int[] myArray = { 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18};
 
-            for (int i = 0; i < myArray.Length; i++)
-            {
-                Console.WriteLine(myArray[i]);
-            }
+            //for (int i = 0; i < myArray.Length; i++)
+            //{
+            //    Console.WriteLine(myArray[i]);
+            //}
 
 
 
