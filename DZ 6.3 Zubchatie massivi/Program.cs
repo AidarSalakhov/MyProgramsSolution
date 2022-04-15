@@ -33,6 +33,7 @@ namespace DZ_6._3_Zubchatie_massivi
                 }
                 Console.WriteLine();
             }
+
         }
     }
 }
