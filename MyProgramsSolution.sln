@@ -65,6 +65,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DZ 6.3 Zubchatie massivi", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U34 Trehmernii massiv, mnogomernii massiv", "U34 Trehmernii massiv, mnogomernii massiv\U34 Trehmernii massiv, mnogomernii massiv.csproj", "{2BDCE497-D4B6-478A-A77B-D785B3ED1F98}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DZ 6.4 Mnogomernie massivi, mnogomernie zubchatie", "DZ 6.4 Mnogomernie massivi, mnogomernie zubchatie\DZ 6.4 Mnogomernie massivi, mnogomernie zubchatie.csproj", "{C677BC56-3B1D-4DA6-8E38-A4BF5B21B0C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +197,10 @@ Global
 		{2BDCE497-D4B6-478A-A77B-D785B3ED1F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BDCE497-D4B6-478A-A77B-D785B3ED1F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BDCE497-D4B6-478A-A77B-D785B3ED1F98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C677BC56-3B1D-4DA6-8E38-A4BF5B21B0C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C677BC56-3B1D-4DA6-8E38-A4BF5B21B0C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C677BC56-3B1D-4DA6-8E38-A4BF5B21B0C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C677BC56-3B1D-4DA6-8E38-A4BF5B21B0C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
