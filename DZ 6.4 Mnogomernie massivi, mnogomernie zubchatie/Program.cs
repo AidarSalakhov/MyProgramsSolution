@@ -12,7 +12,7 @@ namespace DZ_6._4_Mnogomernie_massivi__mnogomernie_zubchatie
         {
             // 1. Вывести на экран трёхмерный массив рандомных чисел
             // 2. Вывести на экран четырёхмерыный массив рандомных чисел
-            // 3. Вывести на экран трёхмерный зубчатый массив
+            // 3. Вывести на экран двухмерный зубчатый массив
             // 4. Вывести на экран зубчатый массив рандомной размерности с рандомными числами
 
             /*
@@ -91,6 +91,32 @@ namespace DZ_6._4_Mnogomernie_massivi__mnogomernie_zubchatie
             }
 
             */
+
+
+            Random random = new Random();
+
+            int[][] myArray = new int[3][];
+            myArray[0] = new int[random.Next(2, 8)];
+            myArray[1] = new int[random.Next(2, 8)];
+            myArray[2] = new int[random.Next(2, 8)];
+
+
+            for (int i = 0; i < myArray.GetLength(0); i++)
+            {
+                for (int j = 0; j < myArray[i].Length; j++)
+                {
+                    myArray[i][j] = random.Next(100);
+                }
+            }
+
+            for (int i = 0; i < myArray.GetLength(0); i++)
+            {
+                for (int j = 0; j < myArray[i].Length; j++)
+                {
+                    Console.Write(myArray[i][j] + "\t");
+                }
+                Console.WriteLine();
+            }
 
         }
     }
