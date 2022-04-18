@@ -89,10 +89,13 @@ namespace DZ_6._4_Mnogomernie_massivi__mnogomernie_zubchatie
                 }
                 Console.WriteLine();
             }
-
             */
 
 
+
+
+
+            /*
             Random random = new Random();
 
             int[][] myArray = new int[3][];
@@ -117,7 +120,11 @@ namespace DZ_6._4_Mnogomernie_massivi__mnogomernie_zubchatie
                 }
                 Console.WriteLine();
             }
+            */
 
+
+
+            
         }
     }
 }
