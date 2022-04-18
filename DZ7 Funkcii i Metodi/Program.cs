@@ -11,9 +11,9 @@ namespace DZ7_Funkcii_i_Metodi
         static string PrintLine(string symbol, int value)
         {
 
-            string result = symbol;
+            string result = "";
 
-            for (int i = 0; i < value - 1; i++)
+            for (int i = 0; i < value; i++)
             {
                  result = result + symbol;
             }
