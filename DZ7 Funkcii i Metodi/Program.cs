@@ -57,7 +57,7 @@ namespace DZ7_Funkcii_i_Metodi
 
             Random random = new Random();
 
-            int[] myArray = { random.Next(100), random.Next(100), random.Next(100), random.Next(100), random.Next(100)};
+            int[] myArray = { random.Next(100), random.Next(100), random.Next(100), random.Next(100), random.Next(100) };
 
             foreach (var item in myArray)
             {
@@ -78,7 +78,5 @@ namespace DZ7_Funkcii_i_Metodi
                 Console.WriteLine("Индекс вашего элемента: " + IndexOf(myArray, value));
             }
         }
-
-        
     }
 }
