@@ -27,7 +27,7 @@ namespace DZ7_Funkcii_i_Metodi
             {
                 if (myArray[i] == value)
                 {
-                    return i + 1;
+                    return i;
                 }
             }
 
@@ -55,8 +55,9 @@ namespace DZ7_Funkcii_i_Metodi
             Console.WriteLine(PrintLine(symbol, value));
             */
 
+            Random random = new Random();
 
-            int[] myArray = { 1, 77, 34, 379, 3, 11, 3, 61 };
+            int[] myArray = { random.Next(100), random.Next(100), random.Next(100), random.Next(100), random.Next(100)};
 
             foreach (var item in myArray)
             {
