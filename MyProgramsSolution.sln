@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U35 Funkcii i Metodi", "U35
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DZ7 Funkcii i Metodi", "DZ7 Funkcii i Metodi\DZ7 Funkcii i Metodi.csproj", "{79FF4269-47C8-4CFD-BEC8-2F1BCD58E651}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DZ0 160 000 euro v god", "DZ0 160 000 euro v god\DZ0 160 000 euro v god.csproj", "{9BF4CD4E-2303-4E31-9909-86E38469FC3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +215,10 @@ Global
 		{79FF4269-47C8-4CFD-BEC8-2F1BCD58E651}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79FF4269-47C8-4CFD-BEC8-2F1BCD58E651}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79FF4269-47C8-4CFD-BEC8-2F1BCD58E651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BF4CD4E-2303-4E31-9909-86E38469FC3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BF4CD4E-2303-4E31-9909-86E38469FC3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BF4CD4E-2303-4E31-9909-86E38469FC3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BF4CD4E-2303-4E31-9909-86E38469FC3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
