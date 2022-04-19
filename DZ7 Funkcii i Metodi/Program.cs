@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace DZ7_Funkcii_i_Metodi
 {
     internal class Program
-    {
+    {   
         static string PrintLine(string symbol, int value)
         {
 
@@ -21,6 +21,19 @@ namespace DZ7_Funkcii_i_Metodi
             return result;
         }
 
+        public static int IndexOf(int[] myArray, int value)
+        {
+            for (int i = 0; i < myArray.Length; i++)
+            {
+                if (myArray[i] == value)
+                {
+                    return i + 1;
+                }
+            }
+
+            return -1;
+        }
+
         static void Main(string[] args)
         {
             /*   1. Написать метод который выводит на экран строку.
@@ -32,7 +45,7 @@ namespace DZ7_Funkcii_i_Metodi
              * 
              */
 
-
+            /*
             Console.WriteLine("Введите символ: ");
             string symbol = Console.ReadLine();
 
@@ -40,8 +53,31 @@ namespace DZ7_Funkcii_i_Metodi
             int value = int.Parse(Console.ReadLine());
 
             Console.WriteLine(PrintLine(symbol, value));
+            */
 
 
+            int[] myArray = { 1, 77, 34, 379, 3, 11, 3, 61 };
+
+            foreach (var item in myArray)
+            {
+                Console.Write(item + " ");
+            }
+
+            Console.WriteLine("\nИндекс какого числа этого массива вам интересен?");
+
+            int value = int.Parse(Console.ReadLine());
+
+
+            if (IndexOf(myArray, value) == -1)
+            {
+                Console.WriteLine("Ошибка! Такого элемента массива не существует.");
+            }
+            else
+            {
+                Console.WriteLine("Индекс вашего элемента: " + IndexOf(myArray, value));
+            }
         }
+
+        
     }
 }
