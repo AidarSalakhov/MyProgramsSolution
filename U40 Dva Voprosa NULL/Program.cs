@@ -45,11 +45,19 @@ namespace U40_Dva_Voprosa_NULL
             */
 
 
+            /*
             int [] myArray = Arr();
 
             myArray ??= new int[0];
 
             Console.WriteLine(myArray.Length);
+
+            */
+
+
+            int[] myArray = null;
+
+            Console.WriteLine(myArray?.Sum() ?? 0);
 
         }
     }
