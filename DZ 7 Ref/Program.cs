@@ -10,8 +10,21 @@ namespace DZ_7_Ref
     {
         static int[] ResizeArray(ref int[] myArray, ref int arraySize)
         {
+            int [] myArray2 = myArray;
+
             myArray = new int [arraySize];
 
+            if (myArray2.Length < myArray.Length)
+            {
+                for (int i = 0; i < myArray2.Length; i++)
+                    myArray[i] = myArray2[i];
+            }
+            else
+            {
+                for (int i = 0; i < myArray.Length; i++)
+                    myArray[i] = myArray2[i];
+            }
+         
             return myArray;
         }
 
@@ -36,7 +49,6 @@ namespace DZ_7_Ref
         }
 
 
-
         static void Main(string[] args)
         {
             /*
@@ -55,8 +67,6 @@ namespace DZ_7_Ref
 
             */
 
-
-
                 Console.WriteLine("Введите размер вашего массива:");
 
                 int arraySize = int.Parse(Console.ReadLine());
@@ -73,11 +83,7 @@ namespace DZ_7_Ref
 
                 ResizeArray(ref myArray, ref arraySize);
 
-                RandomizeArray(myArray);
-
                 PrintlineArray(myArray);
-
-
         }
     }
 }
