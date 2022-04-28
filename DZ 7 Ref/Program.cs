@@ -10,9 +10,11 @@ namespace DZ_7_Ref
     {
         static int[] ResizeArray(ref int[] myArray, ref int arraySize)
         {
-            int [] myArray2 = myArray;
+            int[] myArray2 = myArray;
 
-            myArray = new int [arraySize];
+            myArray = new int[arraySize];
+
+            RandomizeArray(ref myArray);
 
             if (myArray2.Length < myArray.Length)
             {
@@ -24,12 +26,14 @@ namespace DZ_7_Ref
                 for (int i = 0; i < myArray.Length; i++)
                     myArray[i] = myArray2[i];
             }
-         
+
             return myArray;
         }
 
-        static int[] RandomizeArray(int[] myArray)
+        static int[] RandomizeArray(ref int[] myArray)
         {
+            myArray ??= new int[0];
+
             Random random = new Random();
 
             for (int i = 0; i < myArray.Length; i++)
@@ -67,23 +71,41 @@ namespace DZ_7_Ref
 
             */
 
-                Console.WriteLine("Введите размер вашего массива:");
+            Console.WriteLine("Введите размер вашего массива:");
 
-                int arraySize = int.Parse(Console.ReadLine());
+            int arraySize;
 
-                int[] myArray = new int[arraySize];
-
-                RandomizeArray(myArray);
-
-                PrintlineArray(myArray);
-
-                Console.WriteLine("Измените размер вашего массива:");
-
+            try
+            {
                 arraySize = int.Parse(Console.ReadLine());
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Ошибка! Введены неверные данные");
+                return;
+            }
 
-                ResizeArray(ref myArray, ref arraySize);
+            int[] myArray = new int[arraySize];
 
-                PrintlineArray(myArray);
+            RandomizeArray(ref myArray);
+
+            PrintlineArray(myArray);
+
+            Console.WriteLine("Измените размер вашего массива:");
+
+            try
+            {
+                arraySize = int.Parse(Console.ReadLine());
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Ошибка! Введены неверные данные");
+                return;
+            }
+
+            ResizeArray(ref myArray, ref arraySize);
+
+            PrintlineArray(myArray);
         }
     }
 }
