@@ -33,47 +33,62 @@ namespace DZ_7._2_Ref
             Console.WriteLine();
         }
 
-        static int[] ValueToEnd(ref int[] myArray, ref int newValue)
+        static int[] ValueDeleteFromEnd(ref int[] myArray)
         {
+            int a = myArray?.Length ?? 0;
+
+            if (a == 0)
+                myArray = null;
+
+            myArray ??= new int[1];
+
             int[] myArray2 = myArray;
 
-            myArray = new int[myArray.Length + 1];
+            myArray = new int[myArray.Length - 1];
 
-            for (int i = 0; i < myArray2.Length; i++)
+            for (int i = 0; i < myArray.Length; i++)
                 myArray[i] = myArray2[i];
-
-            myArray[myArray2.Length] = newValue;
-
-            return myArray;
-        }  
-        
-        static int[] ValueToStart(ref int[] myArray, ref int newValue)
-        {
-            int[] myArray2 = myArray;
-
-            myArray = new int[myArray.Length + 1];
-
-            for (int i = 0; i < myArray2.Length; i++)
-                myArray[i+1] = myArray2[i];
-
-            myArray[0] = newValue;
 
             return myArray;
         }
 
-        static int[] ValueToAnywhere(ref int[] myArray, int newValue, int index)
+        static int[] ValueDeleteFromStart(ref int[] myArray)
         {
+            int a = myArray?.Length ?? 0;
+
+            if (a == 0)
+                myArray = null;
+
+            myArray ??= new int[1];
+
             int[] myArray2 = myArray;
 
-            myArray = new int[myArray.Length + 1];
+            myArray = new int[myArray.Length - 1];
+
+            for (int i = 0; i < myArray.Length; i++)
+                myArray[i] = myArray2[i + 1];
+
+            return myArray;
+        }
+
+        static int[] ValueDeleteFromAnywhere(ref int[] myArray, int index)
+        {
+            int a = myArray?.Length ?? 0;
+
+            if (a == 0)
+                myArray = null;
+
+            myArray ??= new int[1];
+
+            int[] myArray2 = myArray;
+
+            myArray = new int[myArray.Length - 1];
 
             for (int i = 0, j = 0; i < myArray.Length; i++, j++)
             {
                 if (i == index)
                 {
-                    myArray[i] = newValue;
-                    j--;
-                    continue;
+                    j++;
                 }
                 myArray[i] = myArray2[j];
             }
@@ -82,22 +97,19 @@ namespace DZ_7._2_Ref
 
         static void Main(string[] args)
         {
-            int[] myArray = {1, 2, 3, 4, 5, 6};
+            int[] myArray = { 1, 2, 3, 4, 5, 6 };
 
-            int arraySize = myArray.Length;
+            int arraySize = myArray?.Length ?? 0;
 
-            int newValue = 555;
+            int index = 2;
 
-            int index = 6;
+            ValueDeleteFromEnd(ref myArray);
 
-            ValueToEnd(ref myArray, ref newValue);
+            ValueDeleteFromStart(ref myArray);
 
-            ValueToStart(ref myArray, ref newValue);
-
-            ValueToAnywhere(ref myArray, newValue, index);
+            ValueDeleteFromAnywhere(ref myArray, index);
 
             PrintlineArray(myArray);
-
         }
     }
 }
