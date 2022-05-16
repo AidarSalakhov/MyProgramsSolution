@@ -36,23 +36,6 @@ namespace DZ_8._1_Recursiya
             PrintArrayWithRecursion(myArray, i);
         }
 
-        //static int SumArrayValueWithRecursion(int[] myArray,  int sum = 0, int i = 0)
-        //{
-        //    sum += myArray[i];
-
-        //    i++;
-
-        //    if (i >= myArray.Length)
-        //    {
-        //        return sum;
-        //    }
-
-        //    SumArrayValueWithRecursion(myArray, sum, i);
-
-        //    return sum;
-        //}
-
-
         static void SumArrayValueWithRecursion(int[] myArray, int sum = 0, int i = 0)
         {
             sum += myArray[i];
@@ -68,12 +51,33 @@ namespace DZ_8._1_Recursiya
             SumArrayValueWithRecursion(myArray, sum, i);
         }
 
+        static void SumElementsOfValue(int value, int i = 0, int z = 0)
+        {
+            string newvalue = Convert.ToString(value);
+
+            char x = newvalue[i];
+
+            int y = x - '0';
+
+            z += y;
+
+            i++;
+
+            if (i >= newvalue.Length)
+            {
+                Console.WriteLine(z);
+                return;
+            }
+
+            SumElementsOfValue(value, i , z);
+
+        }
+
         static void Main(string[] args)
         {
             int[] myArray = { 1, 2, 3 };
 
-            SumArrayValueWithRecursion(myArray);
-
+            SumElementsOfValue(666);
         }
     }
 }
