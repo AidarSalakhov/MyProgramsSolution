@@ -24,7 +24,6 @@ namespace DZ_8._1_Recursiya
 
         static void PrintArrayWithRecursion(int[] myArray, int i = 0)
         {
-
             Console.WriteLine(myArray[i]);
 
             i++;
@@ -73,7 +72,6 @@ namespace DZ_8._1_Recursiya
         {
             int[] myArray = { 1, 2, 3 };
 
-            
             SumArrayValueWithRecursion(myArray);
 
         }
