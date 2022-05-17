@@ -91,6 +91,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U49 Recursiya", "U49 Recurs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DZ 8.1 Recursiya", "DZ 8.1 Recursiya\DZ 8.1 Recursiya.csproj", "{3F088806-6328-4810-90FE-8EA1DB0E4E92}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEST7", "TEST7\TEST7.csproj", "{20284423-3545-4BFA-9155-0163BFB49A31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -273,6 +275,10 @@ Global
 		{3F088806-6328-4810-90FE-8EA1DB0E4E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F088806-6328-4810-90FE-8EA1DB0E4E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F088806-6328-4810-90FE-8EA1DB0E4E92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20284423-3545-4BFA-9155-0163BFB49A31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20284423-3545-4BFA-9155-0163BFB49A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20284423-3545-4BFA-9155-0163BFB49A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20284423-3545-4BFA-9155-0163BFB49A31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
