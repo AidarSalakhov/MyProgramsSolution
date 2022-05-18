@@ -67,7 +67,6 @@ namespace DZ_8._1_Recursiya
             }
         }
 
-
         static void SumElementsOfValue(int value, int i = 0, int z = 0)
         {
             string newvalue = Convert.ToString(value);
@@ -138,11 +137,28 @@ namespace DZ_8._1_Recursiya
             return (value % 10) + SumValueSimpleCode2(value / 10);
         }
 
+        static int SumValueWithLoop(int value)
+        {
+            int sum = 0;
+
+            int value2 = 0;
+
+            do
+            {
+                value2 = value % 10;
+
+                sum = value2 + (value / 10);
+
+            } while ((value / 10) > 10);
+            
+            return sum;
+        }
+
         static void Main(string[] args)
         {
             int[] myArray = { 1, 2, 3 };
 
-            Console.WriteLine(SumValueSimpleCode2(456));
+            Console.WriteLine(SumValueWithLoop(455));
         }
     }
 }
