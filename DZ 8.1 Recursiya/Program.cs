@@ -112,11 +112,37 @@ namespace DZ_8._1_Recursiya
             }
         }
 
+        static int SumSimpleCode(int[] myArray,int i = 0)
+        {
+            if (i >= myArray.Length)
+                return 0;
+                    
+            return myArray[i] + SumSimpleCode(myArray, i + 1);
+        }
+
+        static int SumValueSimpleCode(int value, int i = 0)
+        {
+            string newvalue = Convert.ToString(value);
+
+            if (i >= newvalue.Length)
+                return 0;
+
+            return Convert.ToInt32(newvalue[i] - '0') + SumValueSimpleCode(value, i + 1);
+        }
+
+        static int SumValueSimpleCode2(int value)
+        {
+            if (value < 10)
+                return value;
+
+            return (value % 10) + SumValueSimpleCode2(value / 10);
+        }
+
         static void Main(string[] args)
         {
-            int[] myArray = { 1, 2, 3 , 120};
+            int[] myArray = { 1, 2, 3 };
 
-            Console.WriteLine(SumElementsOfValueIfElse(66));
+            Console.WriteLine(SumValueSimpleCode2(456));
         }
     }
 }
