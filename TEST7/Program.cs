@@ -23,7 +23,23 @@ namespace TEST7
 
         static void Main(string[] args)
         {
-            Console.WriteLine(Factorial(4));
+            int a = int.MaxValue;
+
+            int b = 1;
+
+            int c = 0;
+
+
+            try
+            {
+                    c = checked(a + b);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Ошибка"); ;
+            }
+
+            Console.WriteLine(c);
         }
     }
 }
