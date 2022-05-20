@@ -141,15 +141,13 @@ namespace DZ_8._1_Recursiya
         {
             int sum = 0;
 
-            int value2 = 0;
-
             do
             {
-                value2 = value % 10;
+                sum += (value % 10);
 
-                sum = value2 + (value / 10);
+                value = value / 10;
 
-            } while ((value / 10) > 10);
+            } while (value != 0);
             
             return sum;
         }
@@ -158,7 +156,7 @@ namespace DZ_8._1_Recursiya
         {
             int[] myArray = { 1, 2, 3 };
 
-            Console.WriteLine(SumValueWithLoop(455));
+            Console.WriteLine(SumValueWithLoop(4565));
         }
     }
 }
