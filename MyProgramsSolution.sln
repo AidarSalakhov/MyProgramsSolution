@@ -95,6 +95,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEST7", "TEST7\TEST7.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U58 Incapsulyaciya", "U58 Incapsulyaciya\U58 Incapsulyaciya.csproj", "{5368BADB-EB43-40C7-800B-1946C5CEC52E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U59 Konstruktor", "U59 Konstruktor\U59 Konstruktor.csproj", "{F8E74AF9-2562-4A8F-82FD-70BA0E117A77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U59-2 Konstruktor", "U59-2 Konstruktor\U59-2 Konstruktor.csproj", "{E4DFC5FD-B1A9-4EC1-AE4A-36F745410AF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -285,6 +289,14 @@ Global
 		{5368BADB-EB43-40C7-800B-1946C5CEC52E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5368BADB-EB43-40C7-800B-1946C5CEC52E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5368BADB-EB43-40C7-800B-1946C5CEC52E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8E74AF9-2562-4A8F-82FD-70BA0E117A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8E74AF9-2562-4A8F-82FD-70BA0E117A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8E74AF9-2562-4A8F-82FD-70BA0E117A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8E74AF9-2562-4A8F-82FD-70BA0E117A77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4DFC5FD-B1A9-4EC1-AE4A-36F745410AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4DFC5FD-B1A9-4EC1-AE4A-36F745410AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4DFC5FD-B1A9-4EC1-AE4A-36F745410AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4DFC5FD-B1A9-4EC1-AE4A-36F745410AF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
