@@ -8,10 +8,21 @@ namespace U59_2_Konstruktor
 {
     class Point
     {
+        public Point()
+        {
+            _x = _y = 1;
+        }
+
         public Point(int x, int y)
         {
             _x = x;
             _y = y;
+        }
+
+        public Point(int x, int y, int z)
+        {
+            _x = x;
+            _y = y * z;
         }
 
         private int _x;
@@ -27,7 +38,7 @@ namespace U59_2_Konstruktor
     {
         static void Main(string[] args)
         {
-            Point point = new Point(6, 12);
+            Point point = new Point(10, 5, 5);
 
             point.Print();
         }
