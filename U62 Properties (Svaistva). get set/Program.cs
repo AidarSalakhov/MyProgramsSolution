@@ -79,7 +79,6 @@ namespace U62_Properties__Svaistva_.get_set
 
         public int Z { get; }
 
-
     }
 
     internal class Program
